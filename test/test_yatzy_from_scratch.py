@@ -138,8 +138,8 @@ def test_smallStraight():
 @pytest.mark.test_largeStraight
 def test_largeStraight():
 
-    assert 20 == Yatzy.smallStraight(2,3,4,5,6)
-    assert 0 == Yatzy.smallStraight(2,3,4,5,5)
+    assert 20 == Yatzy.largeStraight(2,3,4,5,6)
+    assert 0 == Yatzy.largeStraight(2,3,4,5,5)
 
 
 
