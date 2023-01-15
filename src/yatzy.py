@@ -1,4 +1,11 @@
+from src.pips import Pips
+
 class Yatzy:
+
+
+    def __init__(self, *dice):
+        self.dice = list(dice)
+
 
     @staticmethod
     def chance(*dices):
@@ -20,56 +27,38 @@ class Yatzy:
 
     @staticmethod
     def ones(*dice):
-        count = 0
-        for die in dice:
-            if die == 1:
-                count += 1
-        return count
+        ONE = Pips.ONE.value
+        return dice.count(ONE) * ONE
     
 
     @staticmethod
     def twos(*dice):
-        count = 0
-        for die in dice:
-            if die == 2:
-                count += 2
-        return count
+        TWO = Pips.TWO.value
+        return dice.count(TWO) * TWO
     
 
     @staticmethod
     def threes(*dice):
-        count = 0
-        for die in dice:
-            if die == 3:
-                count += 3
-        return count
+        THREE = Pips.THREE.value
+        return dice.count(THREE) * THREE
     
 
     @staticmethod
     def fours(*dice):
-        count = 0
-        for die in dice:
-            if die == 4:
-                count += 4
-        return count
+        FOUR = Pips.FOUR.value
+        return dice.count(FOUR) * FOUR
     
 
     @staticmethod
     def fives(*dice):
-        count = 0
-        for die in dice:
-            if die == 5:
-                count += 5
-        return count
+        FIVE = Pips.FIVE.value
+        return dice.count(FIVE) * FIVE
     
 
     @staticmethod
     def sixes(*dice):
-        count = 0
-        for die in dice:
-            if die == 6:
-                count += 6
-        return count
+        SIX = Pips.SIX.value
+        return dice.count(SIX) * SIX
     
 
     @staticmethod
