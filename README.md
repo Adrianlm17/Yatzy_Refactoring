@@ -2,9 +2,9 @@
 
 ![Yatzy](./docs/yatzy.jpg)
 
-This repository is an activity carried out in the intensive DAW first cycle, which consisted of refactoring a code provided by the teacher about the Yahtzee game.
+This repository is a refactoring of the Yahtzee game code.
 
-## README from the repository provided by our tutor: [Dfleta](https://github.com/dfleta/Python_ejercicios/tree/master/Poo/Yatzy_Refactoring_TDD_Kata)
+## README from the repository original
 
 -------------------------
 
